@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.parent{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 255, 0.479);
+    padding: 10px;
+    text-align: center;
+   padding-top: 4%;
+    
+}
+.sideboxgreen{
+    width: 25%;
+    height: 88%;
+    background-color: rgb(62, 148, 62);
+    color: white;
+    text-align: center;
+ display: inline-block;
+    vertical-align: top;
+    padding-top: 12%;
+  
+
+}
+
+.whitebox{
+    width: 60%;
+    background-color: white;
+    height: 88%;
+    display: inline-block;
+    vertical-align: top;
+   margin-left: -3px;
+}
+
+.btn{
+    width: 200px;
+    height: 45px;
+    background-color: rgba(0, 255, 255, 0.082);
+    border-radius: 30px;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+
+
+}
+.btn:hover{
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.icons {
+    padding-top: 5%;
+    text-align: center;
+}
+
+.icons h1 {
+    margin: 0 0 20px 0;
+}
+
+.spn {
+    color: rgb(11, 109, 11);
+}
+
+.icn {
+    height: 48px;
+    width: 48px;
+    background-color: rgb(250, 250, 250);
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    vertical-align: top;
+    margin: 0 5px;
+}
+
+.soildicn {
+    color: rgb(4, 4, 4);
+    
+}
+
+
+.soildicn{
+    font-size: 30px;
+}
+
+.inputsbox{
+    display: block;
+    margin-top: 3%;
+
+}
+
+.inputs{
+    width: 300px;
+    height: 47px;
+    padding-left: 15px;
+
+}
+
+.bttn{
+    background-color: rgb(62, 148, 62);
+    color: white;
+}
