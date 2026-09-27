@@ -8,7 +8,7 @@
 .parent{
     height: 100vh;
     width: 100vw;
-    background-color: rgba(0, 0, 255, 0.479);
+    background-color: rgba(0, 0, 255, 0.32);
     padding: 10px;
     text-align: center;
    padding-top: 4%;
@@ -23,17 +23,19 @@
  display: inline-block;
     vertical-align: top;
     padding-top: 12%;
+     border-radius: 10px 0  0 10px;
   
 
 }
 
 .whitebox{
-    width: 60%;
+    width: 50%;
     background-color: white;
-    height: 88%;
+    min-height: 88%;
     display: inline-block;
     vertical-align: top;
    margin-left: -3px;
+   border-radius:  0 10px 10px 0;
 }
 
 .btn{
@@ -42,7 +44,7 @@
     background-color: rgba(0, 255, 255, 0.082);
     border-radius: 30px;
     border: 2px solid white;
-    color: white;
+    color: white !important;
     font-weight: bold;
 
 
@@ -58,7 +60,7 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .icons h1 {
-    margin: 0 0 20px 0;
+    margin: 0 0 10px 0;
 }
 
 .spn {
